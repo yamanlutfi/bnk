@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BNC Sample 🍍</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+  <link rel="stylesheet" href="css/styles.css?version=1.0.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+</head>
+
+<body>
+  <div class="shape-1"></div>
+  <div class="shape-2"></div>
+  <div class="shape-3"></div>
+  <div id="overlay-2" style="display: block;"></div>
+  <div id="overlay" style="display: block;"></div>
+  <nav class="navbar header is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="container" id="navbar-container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img
+            src="https://www.bankneocommerce.co.id/_next/static/images/bnc_logo_b-54a1193924403646c7da1295d3b7512a.png" />
+        </a>
+
+        <a id="burger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+          data-target="navbarBasicExample" onclick="toggle()">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu" id="nav-links">
+        <div class="navbar-start has-text-weight-semibold" style="flex-grow: 1; justify-content: center;">
+          <a class="navbar-item">Home</a>
+          <a class="navbar-item">About BNC</a>
+          <a class="navbar-item">Rate & Fee</a>
+          <a class="navbar-item">Faq</a>
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item bg-none">
+            <div class="dropdown is-hoverable br-lg">
+              <div class="dropdown-trigger">
+                <button class="button br-sm bg-none" aria-haspopup="true" aria-controls="dropdown-menu4">
+                  <span>English</span>
+                  <span class="icon is-small">
+                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                  </span>
+                </button>
+              </div>
+              <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+                <div class="dropdown-content">
+                  <div class="dropdown-item">
+                    <p>You can insert <strong>any type of content</strong> within the dropdown menu.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section">
+    <div class="container">
+      <div class="has-text-centered mt-6" id="services-text-container">
+        <h1 class="title-banner is-1">Neo+</h1>
+        <h4 class="subtitle-banner mt-5 mb-5">
+          A mobile banking by BNC for all the banking needs
+        </h4>
+        <button class="button is-warning mr-3 mt-4 br-sm is-medium"><i class="fas fa-download"></i> &nbsp; Google
+          Play</button>
+        <button class="button is-primary is-light mt-4 br-sm is-medium"><i class="fas fa-download"></i> &nbsp; App
+          Store</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container br-lg pb-6 bg-white">
+      <div class="has-text-centered container-maskot" id="services-text-container">
+        <img class="maskot" src="images/maskot.png" />
+        <nav class="columns mt-5">
+          <a class="bd-focus-item column has-text-centered has-text-info">
+            <span class="icon">
+              <i class="fas fa-university fa-4x"></i>
+            </span>
+            <div class="title is-4 mt-5">
+              <strong>BUKU II</strong>
+            </div>
+            <div class="subtitle is-6">Successfully listed in BUKU II category</div>
+          </a><br/><br/>
+          <a class="bd-focus-item column has-text-centered has-text-info">
+            <span class="icon">
+              <i class="fas fa-microchip fa-4x"></i>
+            </span>
+            <div class="title is-4 mt-5">
+              <strong>Fully Digital</strong>
+            </div>
+            <div class="subtitle is-6">We build tech infrastructure to create a fully digital banking experience</div>
+          </a><br/><br/>
+          <a class="bd-focus-item column has-text-centered has-text-info">
+            <span class="icon">
+              <i class="fas fa-sitemap fa-4x"></i>
+            </span>
+            <div class="title is-4 mt-5">
+              <strong>Full of Experience</strong>
+            </div>
+            <div class="subtitle is-6">We integrate our proven banking experience with financial-technology expertise</div>
+          </a><br/><br/>
+          <a class="bd-focus-item column has-text-centered has-text-info">
+            <span class="icon">
+              <i class="fas fa-shield-alt fa-4x"></i>
+            </span>
+            <div class="title is-4 mt-5">
+              <strong>Safe & Fast</strong>
+            </div>
+            <div class="subtitle is-6">We offer you the latest technology to do banking activites, faster & safer</div>
+          </a><br/><br/>
+        </nav>
+      </div>
+    </div>
+  </section>
+
+  <section class="section mb-6">
+    <div class="container">
+      <div class="columns br-lg has-background-white">
+        <img class="column w-100 img-list p-0" src="https://www.bankneocommerce.co.id/static/img/home/home_mb.jpg"/>
+        <div class="column">
+          <div class="pb-5 pr-5 pl-5">
+            <div class="title is-2 mt-5">
+              <strong>Mobile Banking</strong>
+            </div>
+            <div class="subtitle is-3">A neo bank in your pocket</div>
+            <div class="columns mt-6">
+              <div class="column">
+                <div class="icon-text">
+                  <span class="icon fas fa-lg">
+                    <i class="fas fa-credit-card"></i>
+                  </span>
+                  <span class="is-size-6">&nbsp;&nbsp;Transfer to any bank</span>
+                </div>
+                <div class="icon-text mt-4">
+                  <span class="icon fas fa-lg">
+                    <i class="fas fa-chart-line"></i>
+                  </span>
+                  <span class="is-size-6">&nbsp;&nbsp;High Interest-rate</span>
+                </div>
+              </div>
+              <div class="column">
+                <div class="icon-text">
+                  <span class="icon fas fa-lg">
+                    <i class="fas fa-hand-holding-usd"></i>
+                  </span>
+                  <span class="is-size-6">&nbsp;&nbsp;Free of Charge</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns br-lg has-background-white mt-6">
+        <img class="column w-100 img-list p-0" src="https://www.bankneocommerce.co.id/static/img/home/home_ib.jpg"/>
+        <div class="column">
+          <div class="pb-5 pr-5 pl-5">
+            <div class="title is-2 mt-5">
+              <strong>Internet Banking</strong>
+            </div>
+            <div class="subtitle is-3">Support your business better</div>
+            <div class="columns mt-6">
+              <div class="column">
+                <div class="icon-text">
+                  <span class="icon fas fa-lg">
+                    <i class="fas fa-tachometer-alt"></i>
+                  </span>
+                  <span class="is-size-6">&nbsp;&nbsp;Real time process</span>
+                </div>
+                <div class="icon-text mt-4">
+                  <span class="icon fas fa-lg">
+                    <i class="fas fa-shield-alt"></i>
+                  </span>
+                  <span class="is-size-6">&nbsp;&nbsp;Secured</span>
+                </div>
+              </div>
+              <div class="column">
+                <div class="icon-text">
+                  <span class="icon fas fa-lg">
+                    <i class="fas fa-business-time"></i>
+                  </span>
+                  <span class="is-size-6">&nbsp;&nbsp;24 Hours Service</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="map-section">
+    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1188203140205!2d106.84025291455505!3d-6.248069795477375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3b7e967d87b%3A0x9fb25a4d49e91166!2sGedung%20Gozco!5e0!3m2!1sid!2sid!4v1629046329710!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="footer-main">
+        <div class="columns">
+          <div class="column">
+            <h4 class="title is-4">BNC Bank</h4>
+            <p class="bd-footer-link">
+              <a href="">
+                Privacy Policy
+              </a>
+            </p>
+            <p class="bd-footer-link mt-2">
+              <a href="">
+                Search Bank Location
+              </a>
+            </p>
+          </div>
+          <div class="column">
+            <h4 class="title is-4">Contact</h4>
+            <p>
+              <span class="icon-text">
+                <span class="icon fas fa-lg">
+                  <i class="far fa-envelope"></i>
+                </span>
+                <span>&nbsp;customercare@bankneo.co.id</span>
+              </span>
+            </p>
+            <p class="mt-2">
+              <span class="icon-text">
+                <span class="icon fas fa-lg">
+                  <i class="fas fa-phone"></i>
+                </span>
+                <span>&nbsp;1500-190</span>
+              </span>
+            </p>
+            <p class="mt-2">
+              Head Office Address: Gedung gozco Jl. raya pasar minggu kav. 32 Pancoran jakarta selatan - 12780
+            </p>
+          </div>
+
+          <div class="column">
+            <h4 class="title is-4">Pick Us</h4>
+
+            <div class="buttons">
+              <a class="button is-medium is-facebook is-inverted is-black-social">
+                <span class="icon">
+                  <i class="fab fa-facebook fa-lg"></i>
+                </span>
+              </a>
+              <a class="button is-medium is-instagram is-inverted is-black-social">
+                <span class="icon">
+                  <i class="fab fa-instagram fa-lg"></i>
+                </span>
+              </a>
+              <a class="button is-medium is-twitter is-inverted is-black-social">
+                <span class="icon">
+                  <i class="fab fa-twitter fa-lg"></i>
+                </span>
+              </a>
+              <a class="button is-medium is-youtube is-inverted is-black-social">
+                <span class="icon">
+                  <i class="fab fa-youtube fa-lg"></i>
+                </span>
+              </a>
+            </div>
+            <h4 class="title is-4">Subscribe Now</h4>
+            <div class="field">
+              <input class="input" type="text" placeholder="Email" />
+            </div>
+            <div class="buttons">
+              <button class="button is-left is-medium is-orange">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br/>
+    <hr/>
+
+    <footer class="footer-secondary">
+      <div class="columns">
+        <div class="column is-flex">
+          <span class="ojk"></span>
+          <p class="desc-ftr-scnd">Neo Commerce Bank is registered and supervised by the Financial Services Authority(OJK).</p>
+        </div>
+        <div class="column is-flex">
+          <span class="lps"></span>
+          <p class="desc-ftr-scnd">Neo Commerce Bank is a member of Indonesia Deposit Insurance Program.</p>
+        </div>
+        <div class="column">
+          Copyright © 2021 BNC ♥ by
+          <a href="https://github.com/yamanlutfi">Yaman Lutfi</a>
+        </div>
+      </div>
+    </footer>
+  </section>
+</body>
+<script>
+  function toggle() {
+    var burger = document.querySelector('#burger')
+    var nav = document.querySelector('#nav-links')
+    burger.classList.toggle('is-active')
+    nav.classList.toggle('is-active')
+  }
+</script>
+
+</html>
